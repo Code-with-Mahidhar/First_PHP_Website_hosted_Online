@@ -16,9 +16,7 @@ This is a simple PHP-based web application demonstrating user authentication and
 🎨 Simple UI using HTML & CSS
 
 📂 Project Structure
-nginx
-Copy
-Edit
+
 project demo php/
 │── dashboard.php         # User dashboard
 │── db.php                # Database connection script
@@ -33,9 +31,7 @@ project demo php/
 │── registered access.txt # Notes on access
 ⚡ Setup Instructions
 1. Clone the repository
-bash
-Copy
-Edit
+
 git clone https://github.com/yourusername/First_PHP_Website_hosted_Online.git
 cd First_PHP_Website_hosted_Online/project demo php
 2. Setup the database
@@ -43,9 +39,7 @@ Create a MySQL database.
 
 Import demo.sql using phpMyAdmin or MySQL CLI:
 
-bash
-Copy
-Edit
+
 mysql -u root -p database_name < demo.sql
 3. Configure database connection
 Open db.php and update your database credentials:
